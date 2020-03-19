@@ -1,0 +1,15 @@
+#Wall {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scroll-button {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #fff;
+  border-radius: 15px;
+}
+
