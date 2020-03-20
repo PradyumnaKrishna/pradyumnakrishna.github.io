@@ -1,15 +1,39 @@
 #Wall {
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/img/wallpaperflare.com_wallpaper.jpg");
+  background-image: url("../../assets/img/mobile-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .scroll-button {
-  background-color: rgba(0,98,204,0);
-  border: 3px solid #fff;
+  background-color: rgba(55,55,55,0);
+  border: 0px solid rgba(0,0,0,0);
   border-radius: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+@media (min-width: 1024px) {
+  #Wall {
+    background-image: url("../../assets/img/background.jpg");
+  }
+}
+
+.scroll-button:hover {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+
+.scroll-button:focus {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+
+.icon-mouse:hover {
+  background-color: #23272b;
+  border-color: 1d;
 }
 
