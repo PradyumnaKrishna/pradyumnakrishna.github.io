@@ -1,4 +1,4 @@
-# Website Source ![Version][Version-Badge][Version] [![License: MIT][License-Badge]](LICENSE.md)
+# Website Source [![Version][Version-Badge]][Version] [![License: MIT][License-Badge]](LICENSE.md)
 
 - In This Repository I shared my website source code of my **[Website][Pradyumna]**.
 
