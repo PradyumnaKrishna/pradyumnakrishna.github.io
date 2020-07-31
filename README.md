@@ -7,6 +7,6 @@
 - **[Pradyumna Krishna][Pradyumna]**
 
 [License-Badge]:   https://img.shields.io/badge/License-MIT-red.svg
-[Pradyumna]:       https://pradyumnakrishna.github.io
+[Pradyumna]:       https://pradyumna.me
 [Version]:         https://github.com/PradyumnaKrishna/pradyumnakrishna.github.io/releases/
 [Version-Badge]:   https://img.shields.io/github/v/tag/pradyumnakrishna/pradyumnakrishna.github.io?label=Version

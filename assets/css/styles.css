@@ -1,0 +1,57 @@
+body {
+  color: #62686E;
+  font-size: 20px;
+  font-family: Rajdhani;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #333;
+  font-weight: 600;
+}
+
+.title-line {
+  opacity: .5;
+  width: 70px;
+  border-color: #333;
+  border-top-width: 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Wall {
+  background: url(../../assets/img/Back.jpg) center / cover no-repeat;
+  min-height: 600px;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.social {
+  color: #62686E;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.social:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
