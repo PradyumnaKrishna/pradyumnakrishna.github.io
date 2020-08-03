@@ -67,12 +67,42 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 p {
   font-family: 'Roboto Mono';
-  font-size: 1rem;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 @media (max-width: 767px) {
   .navbar .container, .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
     margin-top: 0;
   }
+}
+
+@media (min-width: 768px) {
+  .lg\:w-2\/3 {
+    width: 66.66666666%;
+  }
+}
+
+.link {
+  color: #333;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-line {
+  width: 125px;
+  border-color: #333;
+  border-top-width: 3px;
+  margin-top: 1rem;
+  transition: all 500ms ease;
+}
+
+.link:hover + .link-line {
+  width: 50px;
 }
 
