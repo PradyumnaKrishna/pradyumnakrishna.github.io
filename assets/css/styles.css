@@ -11,9 +11,26 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #333;
-  font-weight: 600;
+@media (max-width: 767px) {
+  .navbar .container, .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
+    margin-top: 0;
+  }
+}
+
+.nav-text.scrolled {
+  color: #000 !important;
+  border-color: #000 !important;
+  transition: color 200ms ease;
+}
+
+.nav-icn.scrolled {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 0, 0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: color 200ms ease;
+}
+
+#Wall {
+  background: url(../../assets/img/Back.jpg) center / cover no-repeat;
+  min-height: 600px;
 }
 
 .title-line {
@@ -23,11 +40,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-top-width: 1px;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-#Wall {
-  background: url(../../assets/img/Back.jpg) center / cover no-repeat;
-  min-height: 600px;
 }
 
 .section {
@@ -47,40 +59,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-.social {
-  color: #62686E;
-  font-size: 40px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.social:hover {
-  color: #333;
-  text-decoration: underline;
-}
-
-.logo {
-  width: 48px;
-}
-
-p {
-  font-family: 'Roboto Mono';
-  font-size: 16px;
-  font-weight: 300;
-}
-
-@media (max-width: 767px) {
-  .navbar .container, .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .lg\:w-2\/3 {
-    width: 66.66666666%;
-  }
 }
 
 .link {
@@ -104,5 +82,38 @@ p {
 
 .link:hover + .link-line {
   width: 50px;
+}
+
+.social {
+  color: #62686E;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.social:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 48px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #333;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Roboto Mono';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .lg\:w-2\/3 {
+    width: 66.66666666%;
+  }
 }
 
