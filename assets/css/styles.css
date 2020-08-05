@@ -101,7 +101,6 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #333;
   font-weight: 600;
-  text-align: center;
 }
 
 p {
@@ -113,6 +112,67 @@ p {
 @media (min-width: 768px) {
   .lg\:w-2\/3 {
     width: 66.66666666%;
+  }
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  border: none;
+  background-color: rgba(0,0,0,0);
+  color: #FFF;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.my-nav {
+  height: 80px;
+  position: absolute;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .btn.border.rounded.border-light.shadow-none.nav-text {
+    display: none;
+  }
+}
+
+.nav-con {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  border: 0;
+}
+
+@media (min-width: 992px) {
+  .lg\:w-1\/2 {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:pr-10 {
+    padding-right: 3rem;
   }
 }
 
