@@ -18,7 +18,7 @@ body {
 }
 
 #Wall {
-  background: url(../../assets/img/Back.jpg) center / cover no-repeat;
+  background: url(../../assets/img/background.jpg) center / cover no-repeat;
   min-height: 600px;
 }
 
@@ -188,6 +188,7 @@ a:hover {
 
 .skill-ico {
   width: 10%;
+  opacity: 0.75;
 }
 
 @media (max-width: 991px) {
@@ -198,5 +199,13 @@ a:hover {
 
 .skill-img {
   max-height: 100px;
+}
+
+.skill-ico:hover {
+  opacity: 1;
+}
+
+a.text-dark:hover, a.text-dark:focus {
+  color: #333 !important;
 }
 
