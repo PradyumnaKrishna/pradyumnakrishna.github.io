@@ -1,0 +1,183 @@
+body {
+  color: #62686E;
+  font-size: 20px;
+  font-family: Rajdhani;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .container, .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
+    margin-top: 0;
+  }
+}
+
+#Wall {
+  background: url(../../assets/img/background.jpg) center / cover no-repeat;
+  min-height: 600px;
+}
+
+.title-line {
+  opacity: .5;
+  width: 70px;
+  border-color: #333;
+  border-top-width: 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.link {
+  color: #333;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-line {
+  width: 125px;
+  border-color: #333;
+  border-top-width: 3px;
+  margin-top: 1rem;
+  transition: all 500ms ease;
+}
+
+.link:hover + .link-line {
+  width: 50px;
+}
+
+.social {
+  color: #62686E;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.social:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 48px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #222;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Roboto Mono';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.my-nav {
+  height: 80px;
+  position: absolute;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.nav-con {
+  height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #3366BB;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF;
+}
+
+.nav.navbar-nav.ml-auto {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.skill-ico {
+  width: 50%;
+  opacity: 0.75;
+}
+
+.skill-img {
+  max-height: 100px;
+}
+
+.skill-ico:hover {
+  opacity: 1;
+}
+
+.text-dark {
+  color: #62686E !important;
+}
+
+.quote-bg {
+  height: auto;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .quote-bg {
+    height: 680px;
+  }
+}
+
+.bg-dark {
+  background-color: #212329 !important;
+  background-image: none;
+}
+
+.yellow-line {
+  border-color: yellow;
+  border-top-width: 1.5px;
+  width: 70px;
+}
+
