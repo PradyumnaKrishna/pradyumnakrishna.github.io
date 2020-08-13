@@ -132,6 +132,10 @@
   padding-bottom: 4rem;
 }
 
+.pb-8 {
+  padding-bottom: 3rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -204,6 +208,12 @@
 @media (min-width: 992px) {
   .lg\:pt-0 {
     padding-top: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg\:pl-0 {
+    padding-left: 0rem !important;
   }
 }
 
