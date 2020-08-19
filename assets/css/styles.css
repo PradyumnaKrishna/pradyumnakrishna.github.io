@@ -163,6 +163,12 @@
 }
 
 @media (min-width: 768px) {
+  .md\:items-center {
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
   .md\:px-12 {
     padding-left: 4rem !important;
     padding-right: 4rem !important;
@@ -214,6 +220,12 @@
 @media (min-width: 768px) {
   .md\:w-1\/4 {
     width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg\:items-center {
+    align-items: center;
   }
 }
 
