@@ -57,6 +57,14 @@ body {
   text-decoration: none;
 }
 
+.feature-line {
+  width: 150px;
+  border-top-width: 3px;
+  margin-top: 1rem;
+  transition: all 500ms ease;
+  margin-bottom: 0rem;
+}
+
 .link-line {
   width: 125px;
   border-color: #333;
@@ -67,6 +75,10 @@ body {
 
 .link:hover + .link-line {
   width: 50px;
+}
+
+.feature:hover .feature-line {
+  width: 75px;
 }
 
 .social {
@@ -177,7 +189,19 @@ a:hover {
 
 .yellow-line {
   border-color: yellow;
-  border-top-width: 1.5px;
+}
+
+.border-t-6 {
+  border-top-width: 1.25px;
   width: 70px;
+}
+
+.feature:hover > .feature-black {
+  background: radial-gradient(transparent 0%, black 100%);
+  opacity: 0.4;
+}
+
+.feature-black {
+  transition: all 500ms ease;
 }
 

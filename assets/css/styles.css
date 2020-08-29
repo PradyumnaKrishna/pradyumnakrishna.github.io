@@ -131,6 +131,11 @@
   padding-right: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-12 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -152,8 +157,40 @@
   padding-top: 3rem;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.font-5 {
+  font-size: 1.25rem;
+}
+
+.font-8 {
+  font-size: 2rem;
+}
+
+.font-9 {
+  font-size: 2.5rem;
 }
 
 @media (min-width: 768px) {
@@ -165,6 +202,32 @@
 @media (min-width: 768px) {
   .md\:items-center {
     align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mb-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mb-10 {
+    margin-bottom: 3rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-8 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
   }
 }
 
@@ -208,6 +271,12 @@
 @media (min-width: 768px) {
   .md\:pl-12 {
     padding-left: 4rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-center {
+    text-align: center;
   }
 }
 
@@ -296,6 +365,12 @@
 @media (min-width: 992px) {
   .lg\:absolute {
     position: absolute;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg\:h-1\/2 {
+    height: 50%;
   }
 }
 
