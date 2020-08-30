@@ -58,7 +58,7 @@ body {
 }
 
 .feature-line {
-  width: 150px;
+  width: 125px;
   border-top-width: 3px;
   margin-top: 1rem;
   transition: all 500ms ease;
@@ -203,5 +203,16 @@ a:hover {
 
 .feature-black {
   transition: all 500ms ease;
+}
+
+.feature-font {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .feature-font {
+    font-size: 2rem;
+  }
 }
 
