@@ -13,12 +13,18 @@ body {
 
 @media (max-width: 767px) {
   .navbar .container, .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
-    margin-top: 0;
+    background-color: #FFF;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0;
   }
 }
 
 #Wall {
-  background: url(../../assets/img/background.jpg) center / cover no-repeat;
   min-height: 600px;
 }
 
@@ -34,8 +40,6 @@ body {
 .section {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .container {
@@ -97,6 +101,12 @@ body {
   width: 48px;
 }
 
+@media (max-width: 767px) {
+  .logo {
+    width: 32px;
+  }
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #222;
   font-weight: 600;
@@ -150,8 +160,9 @@ a:hover {
 
 .nav.navbar-nav.ml-auto {
   font-family: 'Roboto';
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
 }
 
 .skill-ico {
@@ -169,6 +180,10 @@ a:hover {
 
 .text-dark {
   color: #62686E !important;
+}
+
+.text-black {
+  color: #333 !important;
 }
 
 .quote-bg {
@@ -214,5 +229,9 @@ a:hover {
   .feature-font {
     font-size: 2rem;
   }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
