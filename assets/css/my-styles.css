@@ -146,6 +146,10 @@ a:hover {
   color: #FFF;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .nav-con {
   height: 80px;
 }
@@ -161,8 +165,14 @@ a:hover {
 .nav.navbar-nav.ml-auto {
   font-family: 'Roboto';
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .nav.navbar-nav.ml-auto {
+    font-weight: 400;
+  }
 }
 
 .skill-ico {
@@ -182,8 +192,10 @@ a:hover {
   color: #62686E !important;
 }
 
-.text-black {
-  color: #333 !important;
+@media (max-width: 767px) {
+  .sm\:text-black {
+    color: #333 !important;
+  }
 }
 
 .quote-bg {
@@ -229,9 +241,5 @@ a:hover {
   .feature-font {
     font-size: 2rem;
   }
-}
-
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
