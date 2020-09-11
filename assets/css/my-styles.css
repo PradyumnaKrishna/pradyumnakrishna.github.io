@@ -177,8 +177,24 @@ a:hover {
   opacity: 0.75;
 }
 
+.code-ico {
+  height: 100px;
+  max-width: 150px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .code-ico {
+    height: 50px;
+    max-width: 75px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .skill-img {
-  max-height: 100px;
+  height: 100px;
 }
 
 .skill-ico:hover {
@@ -237,6 +253,84 @@ a:hover {
 @media (max-width: 767px) {
   .sm\:text-black {
     color: #333 !important;
+  }
+}
+
+.status {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid #62686E;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .status {
+    width: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .status {
+    width: 250px;
+  }
+}
+
+.status:before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: #FFA500;
+  border-radius: 25px;
+  position: absolute;
+  top: -15px;
+  left: 41%;
+}
+
+@media (max-width: 767px) {
+  .status:before {
+    left: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .status:before {
+    left: 45%;
+  }
+}
+
+.status.first:before {
+  left: 0px;
+}
+
+.status.first {
+  margin-left: 65px;
+  width: 90px;
+}
+
+@media (max-width: 767px) {
+  .status.first {
+    margin-left: 37px;
+    width: 63px;
+  }
+}
+
+@media (min-width: 992px) {
+  .status.first {
+    margin-left: 77px;
+    width: 100px;
+  }
+}
+
+.code-text {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 767px) {
+  .code-text {
+    width: 100px;
+    height: 50px;
   }
 }
 
