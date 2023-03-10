@@ -4,7 +4,12 @@ module.exports = {
     "./index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+        mono: ['"Roboto Mono"', 'SFMono-Regular', 'monospace']
+      }
+    },
   },
   plugins: [],
 }
