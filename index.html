@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <title>Pradyumna Krishna</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="md:container mx-auto px-4">
+    <div class="md:container mx-auto px-4 h-screen">
       <div class="flex flex-col justify-center items-center h-screen">
         <div class="main text-center w-full lg:w-auto">
           <h1 class="p-4 tracking-[.25em] font-bold uppercase" style="font-size: calc(1.875rem + 1.5vw);">Pradyumna Krishna</h1>
@@ -41,14 +41,21 @@
             </a>
           </div>
         </div>
+        <div class="mt-28">
+          <a href="#about">
+            <button class="h-10 px-4 font-semibold rounded-md drop-shadow bg-white hover:bg-gray-50 border">
+              Read More
+            </button>
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="container text-center mx-auto py-5">
+    <div id="about" class="container text-center mx-auto py-5">
       <div class="lg:w-2/3 mx-auto px-6">
         <h1>About</h1>
         <hr class="title-line">
-        <div class="col tracking-wide text-lg font-light text-start">
+        <div class="col text-start">
             <p class="mb-4">
               Pradyumna Krishna, A Masters of Computer Science Student passionate about Cybersecurity, DevOps and Tech Stuff.
               Who loves to build scalable systems, web applications, and productivity tools. Enjoys working as an active open-source
@@ -56,7 +63,18 @@
             </p>
             <p>As a tech enthusiast, I always want to explore and learn new technologies and tinker with them.</p>
         </div>
+      </div>
     </div>
+
+    <div class="container text-center mx-auto py-5">
+      <div class="lg:w-2/3 mx-auto px-6">
+        <h1>My Projects</h1>
+        <hr class="title-line">
+        <p class="text-start">
+          I usually work on projects in my free time. I develop them and host their code on my GitHub, some of the projects are hosted
+          or deployed using cloud providers to try them. Here are some of the projects that are actively developed and maintained.
+        </p>
+      </div>
     </div>
 
     <footer class="my-4">

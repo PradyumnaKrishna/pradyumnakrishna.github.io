@@ -13,6 +13,10 @@ h3 {
     @apply font-medium;
 }
 
+p {
+    @apply tracking-wide text-lg font-light;
+}
+
 @tailwind components;
 .title-line {
     opacity: .5;
