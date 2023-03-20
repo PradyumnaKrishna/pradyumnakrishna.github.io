@@ -3,18 +3,22 @@
 h1 {
     @apply text-3xl;
     @apply font-medium;
+    @apply pb-8;
 }
 h2 {
     @apply text-2xl;
     @apply font-medium;
+    @apply pb-6;
 }
 h3 {
     @apply text-xl;
     @apply font-medium;
+    @apply pb-5;
 }
 
 p {
-    @apply tracking-wide text-lg font-light;
+    @apply tracking-wide;
+    @apply pb-4;
 }
 
 @tailwind components;
