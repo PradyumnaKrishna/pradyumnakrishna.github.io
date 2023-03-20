@@ -22,23 +22,5 @@ p {
 }
 
 @tailwind components;
-.title-line {
-    opacity: .5;
-    width: 70px;
-    border-color: #333;
-    border-top-width: 1px;
-    @apply mx-auto;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.link-line {
-  width: 125px;
-  border-color: #333;
-  border-top-width: 3px;
-  @apply mx-auto;
-  margin-top: 1rem;
-  transition: all 500ms ease;
-}
 
 @tailwind utilities;
