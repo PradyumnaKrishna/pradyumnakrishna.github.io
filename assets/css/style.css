@@ -15,10 +15,20 @@ h3 {
     @apply font-medium;
     @apply pb-5;
 }
+h4 {
+    @apply text-lg;
+    @apply font-medium;
+    @apply pb-4;
+}
 
 p {
     @apply tracking-wide;
     @apply pb-4;
+}
+
+p a {
+    @apply font-bold;
+    @apply underline;
 }
 
 @tailwind components;
