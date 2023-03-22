@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+h1 {
+    @apply text-3xl;
+    @apply font-medium;
+    @apply pb-8;
+}
+h2 {
+    @apply text-2xl;
+    @apply font-medium;
+    @apply pb-6;
+}
+h3 {
+    @apply text-xl;
+    @apply font-medium;
+    @apply pb-5;
+}
+h4 {
+    @apply text-lg;
+    @apply font-medium;
+    @apply pb-4;
+}
+
+p {
+    @apply tracking-wide;
+    @apply pb-4;
+}
+
+p a {
+    @apply font-bold;
+    @apply underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
