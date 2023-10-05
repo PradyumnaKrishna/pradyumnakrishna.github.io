@@ -1,12 +1,17 @@
-# Website Source [![Version][Version-Badge]][Version] [![License: MIT][License-Badge]](LICENSE.md)
+# Website Source
 
-- In This Repository I shared my website source code of my **[Website][Pradyumna]**.
+This is the source code for my website, <https://pradyumna.me>.
 
+## Development
 
-## Credits
-- **[Pradyumna Krishna][Pradyumna]**
+This website is built with [Tailwind CSS](https://tailwindcss.com/). To make changes to the website, edit the files. The `index.html` file is the main file for the website.
 
-[License-Badge]:   https://img.shields.io/badge/License-MIT-red.svg
-[Pradyumna]:       https://pradyumna.me
-[Version]:         https://github.com/PradyumnaKrishna/pradyumnakrishna.github.io/releases/
-[Version-Badge]:   https://img.shields.io/github/v/tag/pradyumnakrishna/pradyumnakrishna.github.io?label=Version
+To run the website locally, you need to have [Node.js](https://nodejs.org/en/) installed.
+
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the development server.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
