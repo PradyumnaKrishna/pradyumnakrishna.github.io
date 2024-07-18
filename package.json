@@ -1,19 +1,35 @@
 {
-  "name": "pradyumnakrishna.github.io",
-  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "format": "prettier --write .",
-    "lint": "prettier --check ."
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "date-fns": "^3.6.0",
+    "gray-matter": "^4.0.3",
+    "next": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "prettier": "^3.0.3",
-    "sass": "^1.68.0",
-    "tailwindcss": "^3.2.7",
-    "vite": "^4.5.2"
+    "@tailwindcss/typography": "^0.5.13",
+    "@types/node": "^20.14.8",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint-config-next": "14.2.5",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.16.1"
   }
 }

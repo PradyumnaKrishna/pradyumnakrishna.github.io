@@ -1,0 +1,27 @@
+.projects {
+  @apply flex flex-row flex-wrap gap-y-10 justify-between;
+}
+
+.project {
+  @apply h-full grid md:max-w-[600px] lg:max-w-[450px] xl:max-w-[500px] content-between;
+
+  & .image {
+    @apply mb-4 h-20;
+  }
+
+  &__heading {
+    @apply inline-flex w-full items-end justify-between mb-4;
+
+    h3 {
+      @apply text-neutral-600 tracking-wide uppercase pb-0;
+    }
+
+    a {
+      @apply hover:text-black;
+    }
+
+    & .links {
+      @apply text-gray-500 inline-flex gap-4 mr-4 mb-1;
+    }
+  }
+}

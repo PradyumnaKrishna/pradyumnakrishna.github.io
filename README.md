@@ -4,7 +4,7 @@ This is the source code for my website, <https://pradyumna.me>.
 
 ## Development
 
-This website is built with [Tailwind CSS](https://tailwindcss.com/). To make changes to the website, edit the files. The `index.html` file is the main file for the website.
+This website is built with [Tailwind CSS](https://tailwindcss.com/). To make changes to the website, edit the files in the `src` directory.
 
 To run the website locally, you need to have [Node.js](https://nodejs.org/en/) installed.
 

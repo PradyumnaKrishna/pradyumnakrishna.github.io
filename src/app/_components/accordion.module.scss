@@ -1,0 +1,17 @@
+.accordion {
+  &__header {
+    @apply flex justify-between items-start h-full text-gray-500 hover:text-black dark:hover:text-white cursor-pointer;
+
+    .active & {
+      @apply text-black dark:text-white;
+    }
+  }
+
+  &__body {
+    @apply px-5 overflow-hidden max-h-0 mb-4 mr-4 transition-[max-height] duration-500;
+
+    .active & {
+      @apply max-h-80;
+    }
+  }
+}
