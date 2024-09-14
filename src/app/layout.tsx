@@ -1,12 +1,16 @@
 import Footer from '@/app/_components/footer';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 import cn from 'classnames';
 import { ThemeSwitcher } from './_components/theme-switcher';
 
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const roboto = Roboto({
+  weight: ['100', '300', '400', '500', '700', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: `Pradyumna Krishna`,
@@ -32,7 +36,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={cn(inter.className, 'dark:bg-black dark:text-white')}>
+      <body className={cn(roboto.className, 'dark:bg-black dark:text-white')}>
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />

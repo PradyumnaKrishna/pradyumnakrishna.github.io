@@ -17,7 +17,7 @@ h4 {
   @apply text-lg font-medium pb-4;
 }
 p {
-  @apply tracking-wide pb-4 text-lg dark:text-gray-300;
+  @apply tracking-wide pb-4 text-lg text-gray-700 dark:text-gray-300;
 }
 p a {
   @apply text-sky-500 hover:text-sky-700;

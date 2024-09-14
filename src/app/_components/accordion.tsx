@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import cn from 'classnames';
 import styles from './accordion.module.scss';
 
@@ -10,6 +10,7 @@ type Props = {
 };
 
 const Accordion = ({ title, children }: Props) => {
+  const ref = useRef<HTMLDivElement | null>(null);
   const [active, setActive] = useState(false);
 
   const toggleActive = () => {
@@ -17,7 +18,7 @@ const Accordion = ({ title, children }: Props) => {
   };
 
   return (
-    <div className={cn(styles.accordion, { [styles['active']]: active })}>
+    <div className={cn(styles.accordion)}>
       <div className={styles.accordion__header} onClick={toggleActive}>
         <h3 className="uppercase">{title}</h3>
         <span className={cn('transition-transform duration-500', { 'rotate-180': active })}>
@@ -31,7 +32,15 @@ const Accordion = ({ title, children }: Props) => {
           </svg>
         </span>
       </div>
-      <div className={styles.accordion__body}>{children}</div>
+      <div
+        className={styles.accordion__body}
+        ref={ref}
+        style={{
+          maxHeight: active ? `${ref.current?.scrollHeight}px` : '0',
+        }}
+      >
+        {children}
+      </div>
     </div>
   );
 };

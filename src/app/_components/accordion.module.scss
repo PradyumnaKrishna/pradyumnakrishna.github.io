@@ -9,9 +9,5 @@
 
   &__body {
     @apply px-5 overflow-hidden max-h-0 mb-4 mr-4 transition-[max-height] duration-500;
-
-    .active & {
-      @apply max-h-80;
-    }
   }
 }
