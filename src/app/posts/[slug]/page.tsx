@@ -42,6 +42,7 @@ type Params = {
 };
 
 export function generateMetadata({ params }: Params): Metadata {
+  const metadataBase = new URL(process.env.NEXT_PUBLIC_BASE_URL ?? '');
   const post = getPostBySlug(params.slug);
 
   if (!post) {
@@ -55,6 +56,7 @@ export function generateMetadata({ params }: Params): Metadata {
       title: post.title,
       images: [post.ogImage.url],
     },
+    metadataBase: metadataBase,
   };
 }
 
