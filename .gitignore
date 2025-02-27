@@ -1,4 +1,5 @@
 .cache
+.env
 
 # dependencies
 /node_modules

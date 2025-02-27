@@ -7,7 +7,7 @@ import { DEFAULT_AUTHOR } from '@/lib/constants';
 
 type Props = {
   title: string;
-  coverImage: string;
+  coverImage?: string;
   date: string;
   excerpt: string;
   author?: Author;
@@ -25,7 +25,11 @@ export function PostPreview({
   return (
     <div>
       <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} />
+        {coverImage ? (
+          <CoverImage slug={slug} title={title} src={coverImage} />
+        ) : (
+          <div className="bg-gray-200 h-48 w-full" />
+        )}
       </div>
       <h3 className="text-3xl mb-3 leading-snug">
         <Link href={`/posts/${slug}`} className="hover:underline">

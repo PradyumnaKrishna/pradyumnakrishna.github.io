@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import cn from 'classnames';
 import { ThemeSwitcher } from './_components/theme-switcher';
+import { SyntaxHighlighter } from './_components/syntax-highlighter';
 
 import './globals.css';
 
@@ -38,6 +39,7 @@ export default function RootLayout({
       </head>
       <body className={cn(roboto.className, 'dark:bg-black dark:text-white')}>
         <ThemeSwitcher />
+        <SyntaxHighlighter />
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
