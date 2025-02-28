@@ -9,7 +9,6 @@ export default async function markdownToHtml(markdown: string) {
     .use(remarkRehype)
     .use(rehypePrismPlus, {
       ignoreMissing: true,
-      showLineNumbers: true, // Enable line numbers
     })
     .use(html)
     .use(rehypeStringify)

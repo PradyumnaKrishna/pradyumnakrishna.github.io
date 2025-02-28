@@ -1,7 +1,7 @@
 ---
 title: 'From Cloud to Pi: Deploy Apps with Kubernetes'
 excerpt: 'Learn how to self-host your applications on a Raspberry Pi using Kubernetes and Tailscale. This guide walks you through deploying services, setting up tunneling for public access, and exposing your apps without relying on cloud providers.'
-date: '2023-09-16'
+date: '2024-09-16'
 coverImage: '/assets/blog/from-cloud-to-pi/cover.png'
 ogImage:
   url: '/assets/blog/from-cloud-to-pi/cover.png'
@@ -38,7 +38,7 @@ kubectl expose pod nginx --port 80
 
 Alternatively, you can define a YAML file for the same setup:
 
-```yaml
+```yaml showLineNumbers
 ---
 apiVersion: v1
 kind: Pod
@@ -169,7 +169,7 @@ Now, we’ll install the latest Kubernetes Tailscale operator in the `tailscale`
 
 Now that we have the Tailscale operator set up, let’s create an Ingress that will allow your application to be accessed publicly over the internet. We’ll use the following YAML configuration as an example to expose our **nginx** service:
 
-```yaml
+```yaml showLineNumbers
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
