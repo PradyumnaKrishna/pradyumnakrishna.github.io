@@ -18,7 +18,7 @@ export function Projects() {
         'Simple Hacks for Google Colaboratory to boost your productivity and help you to perform daily tasks.',
       image: '/assets/images/hacks.png',
       links: {
-        repository: 'https://colab-hacks.onpy.in',
+        repository: 'https://github.com/PradyumnaKrishna/Colab-Hacks',
       },
     },
     {
