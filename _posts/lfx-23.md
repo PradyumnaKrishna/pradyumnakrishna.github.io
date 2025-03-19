@@ -37,15 +37,15 @@ Thanos needs to specify which engine to utilize to execute the promql queries. A
 
 Here is the sketch of how the engine switch should look (made by Giedrius):
 
-![Giedrius's Sketch](assets/blog/lfx-23/giedrius-sketch.png)
+![Giedrius's Sketch](/assets/blog/lfx-23/giedrius-sketch.png)
 
 I looked into Thanos and made changes in Thanos components from the API to the UI to implement this engine switch. I tried to make the UI as close as possible to the sketch.
 
-![Engine Switch 1](assets/blog/lfx-23/engine-1.png)
+![Engine Switch 1](/assets/blog/lfx-23/engine-1.png)
 
 After initial review, I move this switch to each panel. As this helps to run the same query over the different engines and compare the results.
 
-![Engine Switch 2](assets/blog/lfx-23/engine-2.png)
+![Engine Switch 2](/assets/blog/lfx-23/engine-2.png)
 
 **Pull Requests**
 
@@ -60,11 +60,11 @@ I started with generating query explanations through the Thanos promql-engine an
 
 Thanos UI got updated with time, resulting in the development of the explanation tree that can be seen through the screenshots provided.
 
-![Tree 1](assets/blog/lfx-23/tree-1.png)
+![Tree 1](/assets/blog/lfx-23/tree-1.png)
 
-![Tree 2](assets/blog/lfx-23/tree-2.png)
+![Tree 2](/assets/blog/lfx-23/tree-2.png)
 
-![Tree 3](assets/blog/lfx-23/tree-3.png)
+![Tree 3](/assets/blog/lfx-23/tree-3.png)
 
 **Pull Requests**
 
