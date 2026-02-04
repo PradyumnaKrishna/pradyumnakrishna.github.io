@@ -46,4 +46,4 @@ This design keeps the build path local and predictable. It reduces GitHub Action
 
 If you want to explore the manifests and runner image used for this stack, the repository is here:
 
-https://github.com/PradyumnaKrishna/actions-runner-stack
+<https://github.com/PradyumnaKrishna/actions-runner-stack>
